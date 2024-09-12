@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos Spanish Tutor - Elevate Your Spanish</title>
-    <!-- Link to the correct CSS path -->
+    <!-- Link to External CSS -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Link to Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;600&display=swap">
 </head>
 <body>
@@ -58,7 +59,7 @@
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <div id="servicesSlide" class="slides active-slide">
-                    <img src="https://raw.githubusercontent.com/carlosruano1/spanishtutoring/main/ibiza.jpeg" alt="Services Image" class="slide-image">
+                    <img src="flamenco.jpeg" alt="Services Image" class="slide-image">
                     <div class="slide-content">
                         <h2 class="slide-title-common">Our Services</h2>
                         <ul class="service-list">
@@ -81,7 +82,7 @@
                         </ul>
                         <a href="#" class="more-info-button">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-pdf" viewBox="0 0 16 16">
-                                <path d="M5.5 6.5A.5.5 0 0 1 6 6h1.5a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5zm0 2A.5.5 0 0 1 6 8h1.5a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5zm0 2A.5.5 0 0 1 6 10h1.5a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5z"/>
+                                <path d="M5.5 6.5A.5.5 0 0 1 6 6h1.5a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5zm0 2A.5.5 0 0 1 6 8h1.5a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5zM6 10h1.5a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5z"/>
                                 <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zM13 4.5L9.5 1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
                                 <path d="M5.5 12.5A.5.5 0 0 1 6 12h1.5a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5z"/>
                             </svg>
@@ -90,38 +91,36 @@
                     </div>
                 </div>
                 <div id="feesSlide" class="slides">
-                    <img src="https://raw.githubusercontent.com/carlosruano1/spanishtutoring/main/peru.jpeg" alt="Fees Image" class="slide-image">
-                    <div class="slide-content" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: center; padding: 20px;">
-                        <h2 class="slide-title-common" style="align-self: flex-start;">Our Fees</h2>
-                        <div style="flex-grow: 1; display: flex; align-items: center;">
-                            <table style="margin-top: 0;">
-                                <thead>
-                                    <tr>
-                                        <th>Service</th>
-                                        <th>Price</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>One-on-One Lesson</td>
-                                        <td>$50/hour</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Group Lesson (2-3 people)</td>
-                                        <td>$30/hour per person</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Online Lesson</td>
-                                        <td>$27/session</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Global Immersion Session</td>
-                                        <td>Case by Case</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <a href="#contact" class="cta-button" style="margin-top: 20px;" onclick="closeModal()">Book a Lesson or Consultation</a>
+                    <img src="ibiza.jpeg" alt="Fees Image" class="slide-image">
+                    <div class="slide-content">
+                        <h2 class="slide-title-common">Our Fees</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Service</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>One-on-One Lesson</td>
+                                    <td>$50/hour</td>
+                                </tr>
+                                <tr>
+                                    <td>Group Lesson (2-3 people)</td>
+                                    <td>$30/hour per person</td>
+                                </tr>
+                                <tr>
+                                    <td>Online Lesson</td>
+                                    <td>$27/session</td>
+                                </tr>
+                                <tr>
+                                    <td>Global Immersion Session</td>
+                                    <td>Case by Case</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a href="#contact" class="cta-button" onclick="closeModal()">Book a Lesson or Consultation</a>
                     </div>
                 </div>
                 <div id="aboutSlide" class="slides">
@@ -170,6 +169,7 @@
             </div>
         </section>
     </main>
+    
     <script src="scripts.js"></script>
 </body>
 </html>
