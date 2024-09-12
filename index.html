@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos Spanish Tutor - Elevate Your Spanish</title>
-    <link rel="stylesheet" href="C:\Users\ruano\Desktop\New Website\Carlos Spanish\styles.css">
+    <!-- Link to the correct CSS path -->
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;600&display=swap">
 </head>
 <body>
@@ -57,7 +58,7 @@
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <div id="servicesSlide" class="slides active-slide">
-                    <img src="C:\\Users\\ruano\\Desktop\\New Website\\ibiza.jpeg" alt="Services Image" class="slide-image">
+                    <img src="https://raw.githubusercontent.com/carlosruano1/spanishtutoring/main/ibiza.jpeg" alt="Services Image" class="slide-image">
                     <div class="slide-content">
                         <h2 class="slide-title-common">Our Services</h2>
                         <ul class="service-list">
@@ -89,7 +90,7 @@
                     </div>
                 </div>
                 <div id="feesSlide" class="slides">
-                    <img src="C:\\Users\\ruano\\Desktop\\New Website\\peru.jpeg" alt="Fees Image" class="slide-image">
+                    <img src="https://raw.githubusercontent.com/carlosruano1/spanishtutoring/main/peru.jpeg" alt="Fees Image" class="slide-image">
                     <div class="slide-content" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: center; padding: 20px;">
                         <h2 class="slide-title-common" style="align-self: flex-start;">Our Fees</h2>
                         <div style="flex-grow: 1; display: flex; align-items: center;">
@@ -126,173 +127,6 @@
                 <div id="aboutSlide" class="slides">
                     <h2 class="slide-title-common">About Carlos</h2>
                     <p>Carlos is a native Spanish speaker with years of teaching experience.</p>
-                    <!-- Add more content about Carlos here -->
-                </div>
-                <div class="slide-indicators">
-                    <span class="slide-indicator" onclick="goToSlide(0)"></span>
-                    <span class="slide-indicator" onclick="goToSlide(1)"></span>
-                    <span class="slide-indicator" onclick="goToSlide(2)"></span>
-                </div>
-                <div class="slide-arrow left" onclick="changeSlide(-1)"></div>
-                <div class="slide-arrow right" onclick="changeSlide(1)"></div>
-            </div>
-        </div>
-
-        <section id="contact" class="contact-section">
-            <h2>Contact Me</h2>
-            <a href="#" class="cta-button">Schedule an online consultation</a>
-        </section>
-
-        <section class="contact-info container">
-            <div class="contact-item slide-up">
-                <i class="fas fa-envelope"></i>
-                <h3>Email</h3>
-                <p><a href="mailto:ruano.carlos@outlook.com">ruano.carlos@outlook.com</a></p>
-            </div>
-            <div class="contact-item slide-up">
-                <i class="fas fa-phone-alt"></i>
-                <h3>Phone</h3>
-                <p><a href="tel:+19195933001">+1 919-593-3001</a></p>
-            </div>
-            <div class="contact-item slide-up">
-                <i class="fas fa-map-marker-alt"></i>
-                <h3>Location</h3>
-                <p>Chapel Hill, North Carolina</p>
-            </div>
-            <div class="contact-item slide-up">
-                <i class="fas fa-share-alt"></i>
-                <h3>Social Media</h3>
-                <p>
-                    <a href="#" style="margin-right: 15px;">Instagram</a>
-                    <a href="#" style="margin-right: 15px;">Facebook</a>
-                    <a href="https://www.linkedin.com/in/ruano-carlos">LinkedIn</a>
-                </p>
-            </div>
-        </section>
-    </main>
-    <script src="scripts.js"></script>
-</body>
-</html>
-<body>
-    <header>
-        <nav class="container">
-            <a href="#" style="font-size: 24px; font-weight: 600; text-decoration: none; color: inherit;">Carlos</a>
-            <ul>
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#services" onclick="toggleMenu()">Services</a></li>
-                <li><a href="#contact" class="contact-button" onclick="toggleMenu()">Contact</a></li>
-            </ul>
-            <span class="menu-toggle" onclick="toggleMenu()" style="margin-right: 30px;">&#9776;</span>
-        </nav>
-    </header>
-
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Elevate Your Spanish</h1>
-                <p>Experience the language and culture of Spain with a native tutor</p>
-                <a href="#contact" class="cta-button">Start Learning Today</a>
-            </div>
-        </section>
-
-        <section class="features container">
-            <div class="feature slide-up blur">
-                <h2>Immersive Learning</h2>
-                <p>Dive into Spanish culture and language with personalized, engaging lessons</p>
-            </div>
-            <div class="feature slide-up blur">
-                <h2>Native Expertise</h2>
-                <p>Learn from a tutor born and raised in Spain, bringing authentic experiences to every session</p>
-            </div>
-            <div class="feature slide-up blur">
-                <h2>Tailored Approach</h2>
-                <p>Customized lessons designed to meet your specific goals and learning style</p>
-            </div>
-        </section>
-
-        <section id="services" class="services-section">
-            <h2 class="services-title">Discover our services.</h2>
-            <div class="services-buttons">
-                <button class="service-button" onclick="openModal('services')">Services</button>
-                <button class="service-button" onclick="openModal('fees')">Fees</button>
-                <button class="service-button" onclick="openModal('about')">More About Carlos</button>
-            </div>
-        </section>
-
-        <div id="myModal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <div id="servicesSlide" class="slides active-slide">
-                    <img src="C:\\Users\\ruano\\Desktop\\New Website\\ibiza.jpeg" alt="Services Image" class="slide-image">
-                    <div class="slide-content">
-                        <h2 class="slide-title-common">Our Services</h2>
-                        <ul class="service-list">
-                            <li class="service-box">
-                                <div class="service-title">Personalized Spanish Lessons</div>
-                                <div>One-on-one sessions tailored to your needs</div>
-                            </li>
-                            <li class="service-box">
-                                <div class="service-title">Immersive Cultural Experiences</div>
-                                <div>Engage with Spanish culture through interactive activities</div>
-                            </li>
-                            <li class="service-box">
-                                <div class="service-title">Flexible Scheduling</div>
-                                <div>Choose times that work best for you</div>
-                            </li>
-                            <li class="service-box">
-                                <div class="service-title">Online and In-Person Options</div>
-                                <div>Learn from anywhere or meet in person</div>
-                            </li>
-                        </ul>
-                        <a href="#" class="more-info-button">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-pdf" viewBox="0 0 16 16">
-                                <path d="M5.5 6.5A.5.5 0 0 1 6 6h1.5a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5zm0 2A.5.5 0 0 1 6 8h1.5a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5zm0 2A.5.5 0 0 1 6 10h1.5a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5z"/>
-                                <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zM13 4.5L9.5 1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
-                                <path d="M5.5 12.5A.5.5 0 0 1 6 12h1.5a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5z"/>
-                            </svg>
-                            Read more about the program
-                        </a>
-                    </div>
-                </div>
-                <div id="feesSlide" class="slides">
-                    <img src="C:\\Users\\ruano\\Desktop\\New Website\\peru.jpeg" alt="Fees Image" class="slide-image">
-                    <div class="slide-content" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: center; padding: 20px;">
-                        <h2 class="slide-title-common" style="align-self: flex-start;">Our Fees</h2>
-                        <div style="flex-grow: 1; display: flex; align-items: center;">
-                            <table style="margin-top: 0;">
-                                <thead>
-                                    <tr>
-                                        <th>Service</th>
-                                        <th>Price</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>One-on-One Lesson</td>
-                                        <td>$50/hour</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Group Lesson (2-3 people)</td>
-                                        <td>$30/hour per person</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Online Lesson</td>
-                                        <td>$27/session</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Global Immersion Session</td>
-                                        <td>Case by Case</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <a href="#contact" class="cta-button" style="margin-top: 20px;" onclick="closeModal()">Book a Lesson or Consultation</a>
-                    </div>
-                </div>
-                <div id="aboutSlide" class="slides">
-                    <h2 class="slide-title-common">About Carlos</h2>
-                    <p>Carlos is a native Spanish speaker with years of teaching experience.</p>
-                    <!-- Add more content about Carlos here -->
                 </div>
                 <div class="slide-indicators">
                     <span class="slide-indicator" onclick="goToSlide(0)"></span>
